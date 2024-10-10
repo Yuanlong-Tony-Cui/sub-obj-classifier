@@ -8,7 +8,10 @@ This project was built with the guidance from Prof. Jonathan Rose's NLP course i
 
 ## Instructions
 1. To launch the Gradio user interface, your will first need two checkpoint files (`<baseline.pt>` and `<cnn.pt>`) that save the trained model parameters.
-2. Once you have all required Python libraries installed, run `python main_gradio.py` in your terminal and follow the instructions it gives to open up the URL in your browser.
+2. Once you have all required Python libraries installed, run `python main_gradio.py` in your terminal and follow the instructions it gives to open up the URL (`http://127.0.0.1:7860` by default) in your browser.
+3. Put a sentence or paragraph in the input textbox and run the language models to give you their classification results.
+
+![Classification Tool UI](./sub-obj-classifier-UI.png)
 
 ## Objectives
 Earlier this year (July 2024), I did some research on using NLP to skim through the news articles to build investment strategies on the stock market (as shown on my website). A few questions that came up in my mind almost immediately are:

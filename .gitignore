@@ -1,0 +1,5 @@
+# Ignore checkpoint files
+*.pt
+
+# Ignore the .vector_cache directory
+.vector_cache
