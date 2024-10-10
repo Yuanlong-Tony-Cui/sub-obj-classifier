@@ -7,7 +7,7 @@ import torch.nn as nn
 
 
 '''
-    This BaselineModel() is from Section 4 in Assignment 2
+    This BaselineModel is from <Baseline.ipynb>.
 '''
 class BaselineModel(nn.Module):
     def __init__(self, vocab):
@@ -42,7 +42,7 @@ class BaselineModel(nn.Module):
 
 
 '''
-    This CNNClassifier() is from Section 5 in Assignment 2
+    This CNNClassifier is from <CNN.ipynb>.
     NOTE: We have to change the default values of the parameters
     to match what we saved in the checkpoint file.
 '''
@@ -83,7 +83,7 @@ class CNNClassifier(nn.Module):
 
 
 '''
-    Helper function
+    Helper function (used from the NLP course)
 '''
 def split_input_string(sentence):
 
